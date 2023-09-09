@@ -1,0 +1,19 @@
+.MyDiv {
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* left: 14%;
+    top: 10%; */
+    /* bottom: 60%; */
+    /* width: 60%; Измените ширину по своему усмотрению */
+    /* background-color: #B0E0E6; Цвет квадрата */
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    display: flex; /* Используем flex-контейнер */
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+    flex-direction: column;
+
+}
