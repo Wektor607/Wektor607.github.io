@@ -1,14 +1,12 @@
-import './App.css';
-import InputData from './components/InputData';
 import ChatBot from './components/ChatBot';
 import AboutPage from './components/AboutPage.jsx'
-import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
         <div>
-            <InputData />
+            <ChatBot/>
             <Routes>
                 <Route path="/about" element={<AboutPage />} />
             </Routes>
