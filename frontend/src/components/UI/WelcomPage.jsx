@@ -5,13 +5,13 @@ import ResultCard from './ResultCard';
 function WelcomePage(props) {
   const formStyle = {
     marginTop: '20px',
-    color: "#633974"
+    color: "#481A65"
   };
 
   return (
     <div>
       <div className="container">
-        <h1 className="text-center" style={formStyle}>Welcome - Let's formata text with AI !</h1>
+        <h1 className="text-center" style={formStyle}>Welcome - Let's format text with AI !</h1>
         <br />
         <InputField
           text={props.text}

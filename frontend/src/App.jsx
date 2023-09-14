@@ -5,7 +5,7 @@ import NavBar from './components/UI/NavBar';
 
 function App() {
   const formStyle = {
-    backgroundColor: "#FEF5E7",
+    backgroundColor: "#E2DBD3",
     minHeight: "100vh"
   };
 

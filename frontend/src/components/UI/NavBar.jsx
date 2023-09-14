@@ -5,7 +5,7 @@ import logo from '../images/logo.png';
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid" style={{backgroundColor: "#633974"}}>
+      <div className="container-fluid" style={{backgroundColor: "#372F3A"}}>
         <div className="d-flex align-items-center">
           <img src={logo} className="w-25 h-25" alt="Logo" />
           <Link to="/" className="navbar-brand ml-4">
